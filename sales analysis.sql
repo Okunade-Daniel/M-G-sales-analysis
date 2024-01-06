@@ -189,7 +189,7 @@ SELECT corr(customer_age, order_quantity) AS accessories,
 SELECT country, sum(revenue) as total_sales
   FROM sales
  GROUP BY country
- ORDER BY total_sales desc
+ ORDER BY total_sales desc;
  
 	   -- most sales are made in the United States.
 
